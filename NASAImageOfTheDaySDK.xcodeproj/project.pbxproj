@@ -11,8 +11,8 @@
 		102795DD238C731200296C24 /* NASAImageOfTheDaySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795DC238C731200296C24 /* NASAImageOfTheDaySDKTests.swift */; };
 		102795E9238C742100296C24 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795E8238C742100296C24 /* DataFetcher.swift */; };
 		102795EB238C742600296C24 /* NASAImageOfTheDaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 102795EA238C742600296C24 /* NASAImageOfTheDaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		102795ED238C747700296C24 /* NASAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795EC238C747700296C24 /* NASAImage.swift */; };
-		102795EF238C77B300296C24 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795EE238C77B300296C24 /* Apod.swift */; };
+		102795F5238C7A1000296C24 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795F3238C7A1000296C24 /* Apod.swift */; };
+		102795F6238C7A1000296C24 /* NASAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102795F4238C7A1000296C24 /* NASAImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,8 @@
 		102795DE238C731200296C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102795E8238C742100296C24 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataFetcher.swift; path = Sources/NASAImageOfTheDaySDK/DataFetcher.swift; sourceTree = SOURCE_ROOT; };
 		102795EA238C742600296C24 /* NASAImageOfTheDaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NASAImageOfTheDaySDK.h; path = Sources/NASAImageOfTheDaySDK/NASAImageOfTheDaySDK.h; sourceTree = SOURCE_ROOT; };
-		102795EC238C747700296C24 /* NASAImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAImage.swift; sourceTree = "<group>"; };
-		102795EE238C77B300296C24 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
+		102795F3238C7A1000296C24 /* Apod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apod.swift; path = Sources/NASAImageOfTheDaySDK/Apod.swift; sourceTree = SOURCE_ROOT; };
+		102795F4238C7A1000296C24 /* NASAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NASAImage.swift; path = Sources/NASAImageOfTheDaySDK/NASAImage.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 				102795D2238C731200296C24 /* Info.plist */,
 				102795EA238C742600296C24 /* NASAImageOfTheDaySDK.h */,
 				102795E8238C742100296C24 /* DataFetcher.swift */,
-				102795EC238C747700296C24 /* NASAImage.swift */,
-				102795EE238C77B300296C24 /* Apod.swift */,
+				102795F3238C7A1000296C24 /* Apod.swift */,
+				102795F4238C7A1000296C24 /* NASAImage.swift */,
 			);
 			path = NASAImageOfTheDaySDK;
 			sourceTree = "<group>";
@@ -205,8 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102795EF238C77B300296C24 /* Apod.swift in Sources */,
-				102795ED238C747700296C24 /* NASAImage.swift in Sources */,
+				102795F5238C7A1000296C24 /* Apod.swift in Sources */,
+				102795F6238C7A1000296C24 /* NASAImage.swift in Sources */,
 				102795E9238C742100296C24 /* DataFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
