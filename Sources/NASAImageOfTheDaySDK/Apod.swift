@@ -9,15 +9,23 @@
 import Foundation
 
 public struct Apod: Codable {
-    let copyright, date, explanation: String
-    let hdurl: String
-    let mediaType, serviceVersion, title: String
-    let url: String
+    public let copyright: String
+    public let date: String
+    public let explanation: String
+    public let hdurl: String
+    public let mediaType: String
+    public let serviceVersion: String
+    public let title: String
+    public let url: String
     
     enum CodingKeys: String, CodingKey {
-        case copyright, date, explanation, hdurl
+        case copyright
+        case date
+        case explanation
+        case hdurl
         case mediaType = "media_type"
         case serviceVersion = "service_version"
-        case title, url
+        case title
+        case url
     }
 }

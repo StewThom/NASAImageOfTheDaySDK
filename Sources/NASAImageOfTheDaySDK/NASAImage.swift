@@ -20,7 +20,7 @@ public class NASAImage {
     
     public func fetchImageOfTheDay(completion: @escaping (Apod?) -> Void) {
         if let url = URL(string: "https://api.nasa.gov/planetary/apod") {
-        dataFetcher.get(url: url, completion: completion)
+            dataFetcher.get(url: url, completion: completion)
         }
     }
 }

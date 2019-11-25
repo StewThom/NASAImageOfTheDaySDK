@@ -80,8 +80,8 @@
 				102795D2238C731200296C24 /* Info.plist */,
 				102795EA238C742600296C24 /* NASAImageOfTheDaySDK.h */,
 				102795E8238C742100296C24 /* DataFetcher.swift */,
-				102795F3238C7A1000296C24 /* Apod.swift */,
 				102795F4238C7A1000296C24 /* NASAImage.swift */,
+				102795F3238C7A1000296C24 /* Apod.swift */,
 			);
 			path = NASAImageOfTheDaySDK;
 			sourceTree = "<group>";
