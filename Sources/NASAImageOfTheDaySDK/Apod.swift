@@ -9,7 +9,7 @@
 import Foundation
 
 public struct Apod: Codable {
-    public let copyright: String
+    public let copyright: String?
     public let date: String
     public let explanation: String
     public let hdurl: String
