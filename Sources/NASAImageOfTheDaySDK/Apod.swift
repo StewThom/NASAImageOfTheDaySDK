@@ -12,7 +12,7 @@ public struct Apod: Codable {
     public let copyright: String?
     public let date: String
     public let explanation: String
-    public let hdurl: String
+    public let hdurl: String?
     public let mediaType: String
     public let serviceVersion: String
     public let title: String
